@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top">
+  <a class="navbar-brand" href="#">Resto Application</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="add">Add Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="update">Update Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="list">List Resto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="login">Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="register">Register</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<div class="container" style="margin-top: 55px">
+  <router-outlet></router-outlet>
+  <div class="footer">
+    <p>Copyright By &copy; Weby Codiez </p>
+  </div>
+</div>
